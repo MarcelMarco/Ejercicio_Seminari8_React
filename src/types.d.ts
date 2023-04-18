@@ -4,4 +4,5 @@ export interface Sub{
     subMonths: number
     description?: string
     money: number
+    fav_cientifico: string
   }

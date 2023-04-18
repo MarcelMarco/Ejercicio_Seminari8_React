@@ -13,6 +13,7 @@ const exercici: React.FunctionComponent<Props> = ({ sub })=> {
       <p>Subscribed for {sub.subMonths} months</p>
       {sub.description && <p>{sub.description}</p>}
       <p>${sub.money}</p>
+      <p>{sub.fav_cientifico}</p>
     </div>
   );
 };

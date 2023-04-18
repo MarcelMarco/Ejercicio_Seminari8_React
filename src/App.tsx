@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import List from './components/List';
 import Form from './components/Form';
+import Form2 from './components/Form_2';
 import { Sub } from './types';
 import Exercici from './components/Exercici';
 
@@ -44,6 +45,8 @@ function App() {
       {subs.map((sub) => (
         <Exercici key={sub.nick} sub={sub} />
       ))}
+      <h1>Formulario</h1>
+      <Form2 />
     </div>
     
     
