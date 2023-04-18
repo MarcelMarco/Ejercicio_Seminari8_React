@@ -1,8 +1,20 @@
+import { ListFormat } from "typescript"
 import { Sub } from "../types"
+import axios from "axios"
 
 interface Props {
     subs: Array<Sub>
 }
+
+// componentDidMount() {
+//   axios.get('http://localhost:5000/api/items')
+//     .then(response => {
+//       this.setState({ items: response.data });
+//     })
+//     .catch(error => {
+//       console.log(error);
+//     });
+// }
 
 const List= ({subs}: Props) => {
 
@@ -29,3 +41,7 @@ const List= ({subs}: Props) => {
 }
 
 export default List
+
+function componentDidMount() {
+  throw new Error("Function not implemented.")
+}

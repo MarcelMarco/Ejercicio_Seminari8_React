@@ -1,6 +1,7 @@
 import { useReducer } from "react"
 import { Sub } from "../types"
 
+
 interface FromState {
     inputValues: Sub
 }
@@ -14,6 +15,7 @@ type FormReducerAction = {
 } | {
     type: "clear"
 }
+
 
 const INITIAL_STATE = {
     nick:"",
